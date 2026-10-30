@@ -11,6 +11,7 @@ require_once __DIR__ . '/inc/content-model.php';
 require_once __DIR__ . '/inc/site-chrome.php';
 require_once __DIR__ . '/inc/blocks.php';
 require_once __DIR__ . '/inc/admin.php';
+require_once __DIR__ . '/inc/roles.php';
 
 add_action( 'after_setup_theme', function () {
 	add_theme_support( 'post-thumbnails' );
